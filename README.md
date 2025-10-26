@@ -115,3 +115,22 @@ The repository includes:
 If this work is referenced, please cite as:
 
 > Papakyriakopoulos, Dimitrios. *The Macroeconomic Determinants of the 10-Year Treasury Yield.* (2025). GitHub Repository.
+
+
+---
+
+## Appendix: Figures
+
+### Figure 1. Evolution of Macro Factors (2016–2025)
+![Evolution of Macro Factors](visuals/macro.png)
+
+The standardized PCA-derived factors (Inflation, Policy, Risk, Fiscal, Growth) display distinct temporal dynamics.  
+Notably, the Policy Factor rises sharply post-2021, coinciding with the U.S. monetary tightening cycle.
+
+---
+
+### Figure 2. Actual vs. Model-Fitted 10-Year Yield
+![Actual vs. Predicted 10Y Yield](visuals/modelvsactual.png)
+
+The model’s fitted series tracks the actual 10-year yield with an adjusted \( R^2 = 0.807 \).  
+Residual deviations correspond to market shocks and structural breaks.
