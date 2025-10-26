@@ -32,10 +32,8 @@ The factors are orthogonal by construction and standardized to mean zero and uni
    All variables are standardized to zero mean and unit variance.
 
 4. **Principal Component Extraction**  
-   For each thematic group \( G_i \) with variables \( x_{i1}, x_{i2}, ..., x_{in} \),  
-PCA is applied to obtain the first component:
+   For each thematic group ( G_i ) with variables ( x_{i1}, x_{i2}, \dots, x_{in} ), PCA is applied to obtain the first component: [ F_i = w_{i1}x_{i1} + w_{i2}x_{i2} + \dots + w_{in}x_{in} ] where ( w_{ij} ) are loadings maximizing ( \text{Var}(F_i) ).
 
-where \( w_{ij} \) are the loadings that maximize:
 
 
 
